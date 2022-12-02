@@ -510,4 +510,183 @@ a {
 
 .main {
   flex-grow: 1;
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 120px;
+  background-color: var(--hero-bg-color);
+}
+
+.hero-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 133px;
+}
+
+.hero-section__start {
+  padding-bottom: 91px;
+}
+
+.hero-section__start--title {
+  width: 641px;
+  height: 303px;
+  margin: 0;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 140%;
+  color: var(--main-title-color);
+}
+
+.hero-section__start--text {
+  width: 617px;
+  margin-bottom: 0;
+  padding-bottom: 48px;
+  font-size: 24px;
+  line-height: 172%;
+  color: #767877;
+}
+
+.hero-section__start--btn {
+  background-color: var(--btn-bg-color);
+  border-radius: 4px;
+  border: none;
+  padding: 18px 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: var(--header-bg-color);
+}
+
+.hero-section__start--list {
+  width: 729px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.hero-section__start--list::after {
+  position: absolute;
+  top: 6%;
+  right: 5%;
+  width: 730px;
+  height: 730px;
+  display: block;
+  background-image: url("../../images/icon/backruand-ellips.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  z-index: 7777;
+}
+
+.hero-section__start--item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: var(--main-title-color);
+}
+
+.hero-section__start-num {
+  display: block;
+  padding-top: 12px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--main-text-color);
+}
+
+.hero-section__end::after {
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  width: 211px;
+  height: 220px;
+  display: block;
+  background-image: url("../../images/icon/Shape-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.hero-section__end::before {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 653px;
+  height: 653px;
+  display: block;
+  background-image: url("../../images/icon/dumaloq.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.hero-section__end--img {
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 671px;
+  height: 840px;
+  z-index: 100;
+}
+
+.hero-section__end--box {
+  position: absolute;
+  width: 359px;
+  height: 225px;
+  right: 4%;
+  bottom: 0;
+  text-align: center;
+  background-color: var(--header-bg-color);
+  border-radius: 28px 28px 0px 0px;
+  z-index: 9999;
+}
+
+.hero-section__end--box::before {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -13%;
+  top: -20%;
+  display: block;
+  background-image: url("../../images/icon/users-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.hero-section__end--box__subtitle {
+  margin-top: 36px;
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  color: #222326;
+}
+
+.hero-section__box--img1 {
+  position: absolute;
+  left: 12%;
+  z-index: 1;
+}
+
+.hero-section__box--img2 {
+  position: absolute;
+  left: 47%;
+  z-index: 7;
+}
+
+.hero-section__box--img3 {
+  position: absolute;
+  left: 30%;
+  z-index: 6;
+}
+
+.hero-section__box--img4 {
+  position: absolute;
+  left: 65%;
+  z-index: 8;
 }/*# sourceMappingURL=main.css.map */
