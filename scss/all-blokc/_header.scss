@@ -1,0 +1,61 @@
+.site-header {
+  background-color: var(--header-bg-color);
+  padding: 27px 0;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-nav {
+  padding-left: 280px;
+}
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.site-nav__link {
+  font-size: 18px;
+  line-height: 100%;
+  color: rgba(34, 35, 38, 0.8);
+}
+.site-nav__link:active, .site-nav__link:hover {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222326;
+}
+.site-header__end--link {
+  position: relative;
+  display: inline-block;
+  padding-left: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+.site-header__end--link::before {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  background-image: url("../../images/icon/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+.site-header__end--text {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
