@@ -1,0 +1,98 @@
+.work-section {
+  position: relative;
+  padding: 110px 0;
+}
+.work-section__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+.work-section__title::after {
+  width: 211px;
+  height: 220px;
+  position: absolute;
+  right: -3%;
+  top: -7%;
+  display: block;
+  background-image: url("../../images/icon/Shape-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  z-index: 0;
+}
+.work-section__wrap {
+  display: flex;
+  margin-bottom: 60px;
+}
+.work-section__wrap--subtitle {
+  width: 555px;
+  margin: 0 270px 0 0;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+.work-section__wrap--text {
+  width: 403px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
+.work-section__list {
+  display: flex;
+  justify-content: space-between;
+}
+.work-section__item {
+  text-align: center;
+  padding-left: 23px;
+}
+.work-section__item--number {
+  width: 107px;
+  height: 107px;
+  padding: 39px;
+  display: inline-block;
+  background-color: #fe6b011a;
+  border-radius: 50%;  
+}
+.number {
+  color: var(--btn-bg-color);
+  background-color: #1f6bff1a;
+}
+.number2 {
+  color: #FFCA45;
+  background-color:  #ffca451a;
+}
+.number3 {
+  color: #37D348;
+  background-color:  #37d3481a;
+}
+.work-section__item-subtitle {
+  font-family: 'Outfit';
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--main-subtitle-color);
+}
+.work-section__item--text {
+  width: 258px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #767877;
+}
+.work-section__item:first-child {
+  border-left: 1px solid #FF8345;
+}
+.work-section__item:nth-child(2) {
+  border-left: 1px solid #1F6BFF;
+}
+.work-section__item:nth-child(3) {
+  border-left: 1px solid #FFCA45;
+}
+.work-section__item:nth-child(4) {
+  border-left: 1px solid #37D348;
+}
