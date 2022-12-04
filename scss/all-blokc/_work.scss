@@ -10,11 +10,11 @@
   color: var(--main-title-color);
 }
 .work-section__title::after {
-  width: 211px;
-  height: 220px;
+  width: 160px;
+  height: 150px;
   position: absolute;
-  right: -3%;
-  top: -7%;
+  right: 0;
+  top: 0;
   display: block;
   background-image: url("../../images/icon/Shape-icon.svg");
   background-repeat: no-repeat;
@@ -38,7 +38,6 @@
 .work-section__wrap--text {
   width: 403px;
   margin: 0;
-  font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   color: var(--main-text-color);
@@ -79,7 +78,6 @@
 }
 .work-section__item--text {
   width: 258px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   color: #767877;
