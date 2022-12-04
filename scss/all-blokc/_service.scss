@@ -1,0 +1,99 @@
+.service-section {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
+.service-section__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+.service-section__title::before {
+  position: absolute;
+  left: -82px;
+  top: 0;
+    width: 256px;
+    height: 256px;
+    display: block;
+    background-image: url("../../images/icon/dumaloq.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.service-section__subtitle {
+  font-family: 'Outfit';
+  margin: 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+.service-section__text {
+  display: inline-block;
+  width: 609px;
+  margin-bottom: 78px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
+.service-section__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.service-section__item {
+  padding: 32px 0 39px 32px;
+  text-align: start;
+  background-color: var(--header-bg-color);
+  box-shadow: 0px 54px 80px -16px rgba(219, 222, 229, 0.8);
+  border-radius: 12px;
+}
+.service-section__item--img {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 41px;
+  background: rgba(255, 202, 69, 0.2);
+  box-shadow: 0px 17.3392px 36.1233px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  color: #FFCA45;
+}
+.item--img1 {
+  background: rgba(72, 183, 116, 0.2);
+  box-shadow: 0px 17.3392px 36.1233px rgba(0, 0, 0, 0.05);
+  color: #48B774;
+}
+.item--img2 {
+  color: #FE6B01;
+}
+.service-section__item--title {
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--main-subtitle-color);
+}
+.servise-section__item--text {
+  width: 356px;
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #767877;
+}
+.service-section__item--pic {
+  display: inline-block;
+  color: #FFCA45;
+}
+.item-pic1 {
+  color: #48B774;
+}
+.item-pic2 {
+  color: #FE6B01;
+}

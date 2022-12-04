@@ -437,6 +437,17 @@ a {
   text-decoration: none;
 }
 
+.main-btn {
+  background-color: var(--btn-bg-color);
+  border-radius: 4px;
+  border: none;
+  padding: 18px 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: var(--header-bg-color);
+}
+
 .site-header {
   background-color: var(--header-bg-color);
   padding: 27px 0;
@@ -547,17 +558,6 @@ a {
   font-size: 24px;
   line-height: 172%;
   color: #767877;
-}
-
-.hero-section__start--btn {
-  background-color: var(--btn-bg-color);
-  border-radius: 4px;
-  border: none;
-  padding: 18px 40px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 166%;
-  color: var(--header-bg-color);
 }
 
 .hero-section__start--list {
@@ -689,4 +689,215 @@ a {
   position: absolute;
   left: 65%;
   z-index: 8;
+}
+
+.about-section {
+  background-color: var(--header-bg-color);
+  padding-bottom: 226px;
+}
+
+.about-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section__start--title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  -webkit-text-decoration: underline #FE6B01;
+          text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+
+.about-section__start--subtitle {
+  width: 492px;
+  margin: 0;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+
+.about-section__start--desc {
+  width: 513px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
+
+.start-desc__color {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 156%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FE6B01;
+}
+
+.about-section__end {
+  position: relative;
+}
+
+.about-section__end::before {
+  width: 73px;
+  height: 73px;
+  position: absolute;
+  left: -25%;
+  top: 7%;
+  display: block;
+  background-image: url("../../images/icon/dumaloq.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.about-section__end::after {
+  width: 211px;
+  height: 220px;
+  position: absolute;
+  right: -22%;
+  bottom: -20%;
+  display: block;
+  background-image: url("../../images/icon/Shape-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  z-index: 1;
+}
+
+.about-section__end--img {
+  position: absolute;
+  right: 65%;
+  top: 27%;
+  width: 442px;
+  height: 440px;
+  z-index: 99;
+}
+
+.about-section__end--pic {
+  position: relative;
+  width: 404px;
+  height: 442px;
+  padding-top: 20px;
+  z-index: 77;
+}
+
+.service-section {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
+
+.service-section__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  -webkit-text-decoration: underline #FE6B01;
+          text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+
+.service-section__title::before {
+  position: absolute;
+  left: -82px;
+  top: 0;
+  width: 256px;
+  height: 256px;
+  display: block;
+  background-image: url("../../images/icon/dumaloq.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.service-section__subtitle {
+  font-family: "Outfit";
+  margin: 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+
+.service-section__text {
+  display: inline-block;
+  width: 609px;
+  margin-bottom: 78px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
+
+.service-section__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.service-section__item {
+  padding: 32px 0 39px 32px;
+  text-align: start;
+  background-color: var(--header-bg-color);
+  box-shadow: 0px 54px 80px -16px rgba(219, 222, 229, 0.8);
+  border-radius: 12px;
+}
+
+.service-section__item--img {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 41px;
+  background: rgba(255, 202, 69, 0.2);
+  box-shadow: 0px 17.3392px 36.1233px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  color: #FFCA45;
+}
+
+.item--img1 {
+  background: rgba(72, 183, 116, 0.2);
+  box-shadow: 0px 17.3392px 36.1233px rgba(0, 0, 0, 0.05);
+  color: #48B774;
+}
+
+.item--img2 {
+  color: #FE6B01;
+}
+
+.service-section__item--title {
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--main-subtitle-color);
+}
+
+.servise-section__item--text {
+  width: 356px;
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #767877;
+}
+
+.service-section__item--pic {
+  display: inline-block;
+  color: #FFCA45;
+}
+
+.item-pic1 {
+  color: #48B774;
+}
+
+.item-pic2 {
+  color: #FE6B01;
 }/*# sourceMappingURL=main.css.map */
