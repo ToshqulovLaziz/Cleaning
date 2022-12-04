@@ -1163,4 +1163,188 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
+}
+
+.pricing-section {
+  position: relative;
+  padding: 279px 0 240px 0;
+}
+
+.pricing-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-section__list {
+  text-align: center;
+}
+
+.pricing-section__item {
+  position: relative;
+  padding: 60px 72px 60px 77px;
+  background-color: var(--header-bg-color);
+  border: 1.53846px solid #ECECEC;
+  box-shadow: 0px 56px 80px -16px rgba(219, 222, 229, 0.8);
+  border-radius: 20px;
+  z-index: 88;
+}
+
+.pricing-section__item--subtitle {
+  margin: 0;
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 100%;
+  color: #222326;
+}
+
+.pricing-section__item--text {
+  font-size: 24px;
+  line-height: 100%;
+  color: #A7A7A8;
+}
+
+.pricing-section__item--number {
+  margin: 0;
+  padding-bottom: 44px;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  color: #222326;
+}
+
+.item-position {
+  position: absolute;
+  width: 500px;
+  height: 685px;
+  left: 20.5%;
+  top: 23%;
+  z-index: 0;
+}
+
+.main-btn__left {
+  background-color: var(--btn-bg-color);
+  border-radius: 4px;
+  border: none;
+  padding: 18px 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: var(--header-bg-color);
+}
+
+.pricing-section .main-btn {
+  color: var(--btn-bg-color);
+  background-color: var(--header-bg-color);
+  border: 2px solid var(--btn-bg-color);
+}
+
+.pricing-section__services--text {
+  position: relative;
+  padding-left: 25px;
+  text-align: start;
+  font-size: 28px;
+  line-height: 100%;
+  color: #222326;
+}
+
+.pricing-section__services--text::before {
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  display: block;
+  background-image: url("../../images/icon/pitichka.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.pricing-section__start::before {
+  width: 328px;
+  height: 328px;
+  position: absolute;
+  left: -80px;
+  top: 10%;
+  display: block;
+  background-image: url("../../images/icon/dumaloq.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.pricing-section__end {
+  position: relative;
+}
+
+.pricing-section__end::after {
+  width: 211px;
+  height: 220px;
+  position: absolute;
+  right: -80px;
+  bottom: -140px;
+  display: block;
+  background-image: url("../../images/icon/Shape-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.pricing-section__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  -webkit-text-decoration: underline #FE6B01;
+          text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+
+.pricing-section__subtitle {
+  width: 509px;
+  margin: 0;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+
+.pricing-section__end--text {
+  width: 410px;
+  padding-bottom: 68px;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
+
+.main-btn__right {
+  margin-bottom: 60px;
+  background-color: #FF8345;
+  border-radius: 4px;
+  border: none;
+  padding: 18px 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 166%;
+  color: var(--header-bg-color);
+}
+
+.pricing-section__btn--left {
+  margin-right: 10px;
+  background-color: var(--header-bg-color);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #007CFA;
+}
+
+.pricing-section__btn--right {
+  margin-right: 10px;
+  background-color: var(--btn-bg-color);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #007CFA;
 }/*# sourceMappingURL=main.css.map */
