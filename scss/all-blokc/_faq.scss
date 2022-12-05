@@ -1,0 +1,60 @@
+.faq-section {
+  padding: 120px 0;
+  background-color: var(--main-bg-color);
+  text-align: center;
+}
+.faq-section__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: underline #FE6B01;
+  color: var(--main-title-color);
+}
+.faq-section__subtitle {
+  font-family: 'Outfit';
+  margin: 0 0 60px 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+.faq-section__row {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+.faq-section__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 41px 18px 40px 20px;
+  background-color: var(--header-bg-color);
+  border-radius: 4px;
+}
+.faq-section__item--btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--main-title-color);
+}
+.faq-section__item--question {
+  margin: 0;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--main-title-color);
+}
+.item-first {
+  align-items: start;
+}
+.faq-section__item--text {
+  width: 517px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--main-text-color);
+}
