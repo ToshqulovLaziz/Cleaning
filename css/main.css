@@ -1417,4 +1417,115 @@ a {
   font-size: 18px;
   line-height: 156%;
   color: var(--main-text-color);
+}
+
+.clients-section {
+  position: relative;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.clients-section .faq-section__subtitle {
+  margin-top: 0;
+}
+
+.clients-section .faq-section__title {
+  margin-bottom: 0;
+}
+
+.clients-section__subtitle {
+  margin: 60px 0 40px 0;
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+
+.clients-section__text {
+  width: 1000px;
+  display: inline-block;
+  margin-bottom: 97px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: var(--main-text-color);
+}
+
+.clients-section__img {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  left: 10%;
+  top: 65%;
+}
+
+.clients-section__pic {
+  position: absolute;
+  width: 163px;
+  height: 163px;
+  right: 0;
+  top: 25%;
+}
+
+.clients-section__img--two {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 5%;
+  top: 52%;
+}
+
+.clients-section__img--one {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  right: 13%;
+  top: 42%;
+}
+
+.clients-section__pic--one {
+  position: absolute;
+  width: 163px;
+  height: 163px;
+  right: 0;
+  bottom: 15%;
+}
+
+.clients-section__pic--two {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 17%;
+  top: 41%;
+}
+
+.clients-section__image {
+  position: absolute;
+  width: 171px;
+  height: 171px;
+  left: 0;
+  bottom: 10%;
+}
+
+.clients-section__imge-one {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  right: 16%;
+  bottom: 16%;
+}
+
+.clients-section::before {
+  position: absolute;
+  left: 46%;
+  bottom: 12%;
+  width: 100px;
+  height: 16px;
+  display: block;
+  background-image: url("../../images/icon/nuqta.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
 }/*# sourceMappingURL=main.css.map */
